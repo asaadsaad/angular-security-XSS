@@ -16,6 +16,7 @@ import { DomSanitizer } from '@angular/platform-browser'
     <a [href]="hackURL">untrusted URL</a>
 
     <!--div-- [innerHTML]="sanitizer.bypassSecurityTrustHtml(hack)"></!--div-->
+    <span>Security Demo</span>
   `,
 })
 export class AppComponent {
